@@ -1,0 +1,26 @@
+
+# Database connectivity
+psycopg[binary]
+SQLAlchemy
+
+# Configuration and data validation
+pydantic
+pydantic-settings
+
+# AI and agent workflow
+langchain
+langchain-groq
+langgraph
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# Testing
+pytest
+
+sqlglot  #It's a SQL parser that helps our Python application understand SQL statements and reject queries that aren't permitted by our rules.
+pygraphviz #draw the graph
+
+fastapi
+uvicorn[standard]
