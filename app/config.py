@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     db_host: str = "localhost"
     db_port: int = 5432
     db_name: str = "ai_data_analyst"
-    db_user: str = "postgres"
+    db_user: str = "ai_analyst_reader"
     db_password: str
 
     # Groq configuration
